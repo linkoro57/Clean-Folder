@@ -1,0 +1,8 @@
+{
+  "fallback_category": "Other",
+  "categories": {
+    "Pictures": ["png", "jpg", "jpeg", "webp"],
+    "Documents": ["pdf", "docx", "txt"],
+    "Archives": ["zip", "rar", "7z"]
+  }
+}

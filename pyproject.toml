@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cleanfolder-cli"
+version = "1.0.0"
+description = "A lightweight Python file organizer with preview mode and customizable rules."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-only" }
+authors = [{ name = "linkoro57" }]
+dependencies = []
+
+[project.scripts]
+cleanfolder = "cleanfolder.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cleanfolder*"]

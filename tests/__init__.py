@@ -1,0 +1,1 @@
+"""CleanFolder test suite."""
